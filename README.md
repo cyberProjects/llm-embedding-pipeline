@@ -17,7 +17,7 @@ Built a serverless data ingestion and embedding pipeline that:
 - **PostgreSQL (AWS RDS)** (vector storage using `vector(n)` columns)
 - **OpenAI API** (`text-embedding-ada-002` model)
 - **Federal Register Public API** (document metadata and XML downloads)
-- **Python 3.8** (runtime)
+- **Python 3.10** (runtime)
 - **Libraries**:
   - `psycopg2` (PostgreSQL client)
   - `requests` (API interactions)
